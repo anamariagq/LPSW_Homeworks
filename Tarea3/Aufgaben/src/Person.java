@@ -25,3 +25,5 @@ public class Person implements Serializable {
                 .append(name).append(", ").append(adresse.toString()).toString();
     }
 }
+/*clases Person y Adresse
+implementan Serializable para poder serializar y deserializar */
