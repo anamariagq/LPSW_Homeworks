@@ -1,3 +1,6 @@
+import java.io.Serializable;
+
+
 public class Adresse implements Serializable {
     private String strasse; private String ort;
     public String getStrasse() { return this.strasse; }
@@ -5,7 +8,5 @@ public class Adresse implements Serializable {
     public String getOrt() { return ort; }
     public void setOrt(String ort) { this.ort = ort; }
     public String toString() {
-        return new StringBuilder().append(strasse).append(", ") .append(ort).toString();
-
-    }
+        return new StringBuilder().append(strasse).append(", ").append(ort).toString();}
 }
