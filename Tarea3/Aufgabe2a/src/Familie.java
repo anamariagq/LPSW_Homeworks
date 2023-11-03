@@ -4,39 +4,48 @@ public class Familie {
     private ArrayList<String> mitglieder;
 
     public Familie(String vater, String mutter) {//aquí va el código
-        if(vatter == null || vater.isEmpty() || mutter == null || mutter.isEmpty()){
+        if (vater == null || vater.isEmpty() || mutter == null || mutter.isEmpty()) {
             throw new IllegalArgumentException("No empty parameters allowed. For no Vater or Mutter, please enter an Empty Space");
         }
         mitglieder = new ArrayList<>();
         mitglieder.add(vater);//necesario??
         mitglieder.add(mutter);
-        //la ki hace al comienzo una IllegalArgumentException y cierra el programa
     }
 
 
     public void addKind(String kind) {//Código
-        if(vatter == null || vater.isEmpty() || mutter == null || mutter.isEmpty()){
+        if (kind == null || kind.isEmpty()) {
             throw new IllegalArgumentException("No empty parameters allowed. For no Children, please enter an Empty Space");
         }
-      mitglieder.add(kind);
+        mitglieder.add(kind);
     }
 
-    public void getMitglied(Familienmitglied mitglied){
-        if(mitglied == Familienmitglied.VATER){
-            return mitglied.get(0);
+    public String getMitglied(Familienmitglied mitglied) {
+        if (mitglied == Familienmitglied.VATER) {
+            return mitglieder.get(0);
         } else if (mitglied == Familienmitglied.MUTTER) {
-            return mitglied.get(1);
-        } else if (mitglied == Familienmitglied.KIND) {
-            if(mitglied.size()>2){
-                return mitglied.get(", ");
-            } else{
-                return ".";
+            return mitglieder.get(1);
+        } else if (mitglied == Familienmitglied.KIND && mitglieder.size() > 2) {
+            StringBuilder kinder = new StringBuilder();
+            for (int i = 2; i < mitglieder.size(); i++) {
+                kinder.append(mitglieder.get(i));
+                if (i != mitglieder.size() - 1) {//no es posicion, sino cantidad
+                    kinder.append(", ");
+                }
             }
+            return kinder.toString();
+        } else if (3 > mitglieder.size()) {
+            System.out.println("Diese Familie besteht aus Vater und Mutter");
+            return "";
+        }else{
+            return "";
         }
-        return ".";
     }
-
 }
+
+
+
+
  /*for (int i = 0; i < mitglieder.size(); i++) {
             try {
                 mitglieder.add(0, "vater");

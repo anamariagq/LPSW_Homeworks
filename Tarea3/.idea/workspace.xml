@@ -7,7 +7,8 @@
     <list default="true" id="55cafbe4-58ae-490d-8944-56e395670784" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aufgabe2a/src/Familie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgabe2a/src/Familie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LPSW-Aufgabenblatt-3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LPSW-Aufgabenblatt-3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgabe2a/src/Familienmitglied.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgabe2a/src/Familienmitglied.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgabe2a/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgabe2a/src/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,11 +63,22 @@
       <workItem from="1698396523434" duration="774000" />
       <workItem from="1698401887587" duration="14890000" />
       <workItem from="1698853351596" duration="5922000" />
-      <workItem from="1698999327714" duration="5834000" />
+      <workItem from="1698999327714" duration="14663000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
