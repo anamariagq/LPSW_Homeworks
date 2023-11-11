@@ -1,19 +1,25 @@
 import java.io.IOException;
 import java.util.ArrayList;
-public class Familie {
-    private ArrayList<String> mitglieder;
+import java.util.Iterator;
 
-    public Familie(String vater, String mutter) {//aquí va el código
+public class Familie implements Iterable <String>{
+
+    private int index = 0; //ver la relación con Iterable
+    private ArrayList<String> mitglieder;
+    //Arraylist para la creación de nuevos integrantes fam
+
+    //contructor con padre y madre
+    public Familie(String vater, String mutter) {
         if (vater == null || vater.isEmpty() || mutter == null || mutter.isEmpty()) {
             throw new IllegalArgumentException("No empty parameters allowed. For no Vater or Mutter, please enter an Empty Space");
         }
         mitglieder = new ArrayList<>();
-        mitglieder.add(vater);//necesario??
+        mitglieder.add(vater);
         mitglieder.add(mutter);
     }
 
 
-    public void addKind(String kind) {//Código
+    public void addKind(String kind) {
         if (kind == null || kind.isEmpty()) {
             throw new IllegalArgumentException("No empty parameters allowed. For no Children, please enter an Empty Space");
         }
@@ -41,6 +47,9 @@ public class Familie {
             return "";
         }
     }
+    //método por defecto para la Interface Iterator
+    @Override
+    public Iterator <String> iterator(){return mitglieder.iterator();}
 }
 
 
