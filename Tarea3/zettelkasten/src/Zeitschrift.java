@@ -2,10 +2,8 @@
  * Erstellt ein Medium vom Typ Zeitschrift
  * Bildet String mit allen Attributen einer Zeitschrift
  * <p>
- * @author: Karen Witt | 19462
- * Umgebung: JDK2021.1.3
- * Erstellt: 22.09.2021
- * Letzte Änderung: 30.9.2021
+ * @author: Karen Witt | Erweitet von Ana María Gómez Quitral
+ * Letzte Änderung: 12.11.2023
  */
 
 public class Zeitschrift extends Medium
@@ -65,5 +63,8 @@ public class Zeitschrift extends Medium
   public void setNummer(int _nummer)
   {
     nummer = _nummer;
+  }
+  public MTyp getMediaType(){
+    return  MTyp.ZEITSCHRIFT;
   }
 }

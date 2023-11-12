@@ -5,29 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55cafbe4-58ae-490d-8944-56e395670784" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Tarea3/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zettelkasten/Bibliothek.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zettelkasten/Buch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zettelkasten/CD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zettelkasten/ElektronischesMedium.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zettelkasten/Medium.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zettelkasten/Zeitschrift.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/Zettelkasten.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/src/Bibliothek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/src/Buch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/src/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/src/ElektronischesMedium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/src/Medium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zettelkasten/src/Zeitschrift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgabe2a/src/Familie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgabe2a/src/Familie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgabe2a/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgaben/Aufgaben.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/Aufgabe1ab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LPSW-Aufgabenblatt-3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LPSW-Aufgabenblatt-3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Bibliothek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Buch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/CD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Medium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zettelkasten/src/Bibliothek.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Bibliothek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zettelkasten/src/Buch.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Buch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zettelkasten/src/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zettelkasten/src/ElektronischesMedium.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/ElektronischesMedium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zettelkasten/src/Medium.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Medium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zettelkasten/src/Zeitschrift.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Zeitschrift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zettelkasten/src/Zettelkasten.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Zettelkasten.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -56,22 +45,27 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Tarea3__Aufgabe2&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anagq/Documents/Uni/SMIB3/LPSW/Homeworks/Tarea3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Tarea3__Aufgabe4",
+    "jdk.selected.JAVA_MODULE": "temurin-17",
+    "last_opened_file_path": "/Users/anagq/Documents/Uni/SMIB3/LPSW/Homeworks/Tarea3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zettelkasten/src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Bibliothek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bibliothek" />
@@ -100,7 +94,7 @@
       <workItem from="1698999327714" duration="16255000" />
       <workItem from="1699391591989" duration="871000" />
       <workItem from="1699705077774" duration="345000" />
-      <workItem from="1699705816112" duration="5876000" />
+      <workItem from="1699705816112" duration="28518000" />
     </task>
     <servers />
   </component>

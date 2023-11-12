@@ -5,29 +5,32 @@
  * Gibt die bibliogr. Daten auf der Konsole aus
  * <p>
  *
- * @author: Karen Witt | 19462
- * Umgebung: JDK2021.1.3
- * Erstellt: 22.09.2021
- * Letzte Änderung: 17.10.2021
+ * @author: Karen Witt | Erweitet von Ana María Gómez Quitral
+ * Letzte Änderung: 12.11.2023
  */
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class Bibliothek
-{
+public class Bibliothek {
   public static void main(String[] args) {
       Zettelkasten zettelkasten = new Zettelkasten();
-      zettelkasten.addMedium(new CD("Live At Wembley", "Queen", "Parlophone (EMI)"));
-      // ... und hier noch 3 weitere Statements
-      // zum Hinzufügen von Medien
 
-      zettelkasten.sort(); // für Aufgabe C.5
+      try {
+          zettelkasten.addMedium(new CD("Live At Wembley", "Queen", "Parlophone (EMI)"));
+          zettelkasten.addMedium(new Zeitschrift("Insula", "0020-4536",1, 907));// ... und hier noch 3 weitere Statements
+          zettelkasten.addMedium(new Buch("1Q84", 2009, "Tusquets", "9783832195878", "Haruki Murakami"));
+          zettelkasten.addMedium(new Buch("Rayuela", 1963, "Sudamericana", "9788466331906", "Julio Cortázar"));
+          zettelkasten.addMedium(new ElektronischesMedium("Hochschule Stralsund", "http://www.hochschule-stralsund.de"));
+          zettelkasten.addMedium(new Buch("Hochschule Stralsund", 2021, "Beck", "3-257-06958-7", "Die Chefetage"));
+      }catch (IllegalArgumentException e){
+          System.err.println(e);
+      }
+      zettelkasten.sort("Up"); // für Aufgabe C.5
       for (Medium medium : zettelkasten) {
           System.out.println(medium.calculateRepresentation());
       }
-
   }
 }
 

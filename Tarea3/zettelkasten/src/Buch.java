@@ -173,5 +173,7 @@ public class Buch extends Medium
       return false;
     }
   }
-
+  public MTyp getMediaType() {
+    return MTyp.BUCH;
+  }
 }

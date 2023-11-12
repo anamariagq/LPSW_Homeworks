@@ -65,4 +65,6 @@ public class ElektronischesMedium extends Medium
       System.out.println("Die eingegebene URL ist nicht korrekt.");
     }
   }
+  public MTyp getMediaType(){
+    return MTyp.ELEKTRONISCHESMEDIUM;}
 }

@@ -2,10 +2,8 @@
  * Erstellt ein Medium vom Typ CD
  * Bildet String mit allen Attributen
  *
- * @authorin: Karen Witt | Erweitet von Ana María Gómez Quitral
- * Umgebung: JDK2021.1.3
- * Erstellt: 22.09.2021
- * Letzte Änderung: 02.10.2021
+ * @author: Karen Witt | Erweitet von Ana María Gómez Quitral
+ * Letzte Änderung: 12.11.2023
  */
 
 public class CD extends Medium
@@ -57,5 +55,7 @@ public class CD extends Medium
     kuenster = _kuenster;
   }
 
-
+  public MTyp getMediaType() {
+    return MTyp.CD;
+  }
 }

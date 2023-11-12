@@ -2,13 +2,13 @@
  * Abstrakte Oberklasse von Buch, CD, Elektronisches Medium, Zeitschrift
  * Beinhaltet abstrakte Methode calculateRepresentation
  * <p>
- * @author: Karen Witt | 19462
- * Umgebung: JDK2021.1.3
- * Erstellt: 22.09.2021
- * Letzte Änderung: 30.9.2021
+ * @author: Karen Witt | Erweitet von Ana María Gómez Quitral
+ * Letzte Änderung: 12.11.2023
  */
 
-public abstract class Medium
+import java.io.Serializable;
+
+public abstract class Medium implements Comparable<Medium>
 {
   private String titel;
 
@@ -31,4 +31,17 @@ public abstract class Medium
 
   //Abstrakte Methode wird in den Unterklassen definiert.
   public abstract String calculateRepresentation();
+
+  public abstract MTyp getMediaType();
+
+  @Override
+  public int compareTo(Medium medium){
+    int compareTitleResult = this.getTitel().compareTo(medium.getTitel());
+    if(compareTitleResult == 0){
+      return this.getClass().getName().compareTo(medium.getClass().getName());
+    }else{
+      return compareTitleResult;
+    }
+  }
+  public int compareTo(MTyp o){return this.titel.compareToIgnoreCase(String.valueOf(o.getClass()));}
 }
