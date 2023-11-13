@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55cafbe4-58ae-490d-8944-56e395670784" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Bibliothek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Buch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/CD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Medium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgabe2a/src/Familie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgabe2a/src/Familie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgabe2a/src/Familienmitglied.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgabe2a/src/Familienmitglied.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgabe2a/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgabe2a/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/src/Adresse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/src/Adresse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LPSW-Aufgabenblatt-3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/LPSW-Aufgabenblatt-3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Bibliothek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zettelkasten/Bibliothek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/CD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zettelkasten/CD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/MTyp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zettelkasten/MTyp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zettelkasten/Medium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Zeitschrift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zettelkasten/Zeitschrift.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zettelkasten/Zettelkasten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zettelkasten/Zettelkasten.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zettelkasten/src/Bibliothek.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Bibliothek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zettelkasten/src/Buch.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Buch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zettelkasten/src/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/CD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zettelkasten/src/ElektronischesMedium.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/ElektronischesMedium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zettelkasten/src/MTyp.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/MTyp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zettelkasten/src/Medium.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Medium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zettelkasten/src/Zeitschrift.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Zeitschrift.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zettelkasten/src/Zettelkasten.java" beforeDir="false" afterPath="$PROJECT_DIR$/zettelkasten/src/Zettelkasten.java" afterDir="false" />
@@ -51,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Tarea3__Aufgabe4",
+    "git-widget-placeholder": "Tarea3__Aufgabe4__5",
     "jdk.selected.JAVA_MODULE": "temurin-17",
     "last_opened_file_path": "/Users/anagq/Documents/Uni/SMIB3/LPSW/Homeworks/Tarea3",
     "node.js.detected.package.eslint": "true",
@@ -94,7 +105,7 @@
       <workItem from="1698999327714" duration="16255000" />
       <workItem from="1699391591989" duration="871000" />
       <workItem from="1699705077774" duration="345000" />
-      <workItem from="1699705816112" duration="28518000" />
+      <workItem from="1699705816112" duration="34165000" />
     </task>
     <servers />
   </component>

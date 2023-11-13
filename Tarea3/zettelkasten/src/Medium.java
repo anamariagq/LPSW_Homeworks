@@ -1,8 +1,9 @@
 /**
  * Abstrakte Oberklasse von Buch, CD, Elektronisches Medium, Zeitschrift
  * Beinhaltet abstrakte Methode calculateRepresentation
- * <p>
- * @author: Karen Witt | Erweitet von Ana María Gómez Quitral
+ *
+ * @author: Karen Witt | Ana María Gómez Quitral
+ * Matrikelnummer: 20761
  * Letzte Änderung: 12.11.2023
  */
 
@@ -34,6 +35,7 @@ public abstract class Medium implements Comparable<Medium>
 
   public abstract MTyp getMediaType();
 
+  //Aufgabe5 zur Vergleichen (vorbereitung Methode sort in Zettelkasten) die Elementen der ArrayList
   @Override
   public int compareTo(Medium medium){
     int compareTitleResult = this.getTitel().compareTo(medium.getTitel());

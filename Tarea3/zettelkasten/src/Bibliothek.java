@@ -3,9 +3,10 @@
  * Nimmt bibliogr. Eingaben über die Konsole entgegen
  * Erzeugt aus den Daten ein neues Objekt (Buch, CD, Zeitschrift oder elektr. Medium)
  * Gibt die bibliogr. Daten auf der Konsole aus
- * <p>
  *
- * @author: Karen Witt | Erweitet von Ana María Gómez Quitral
+ *
+ * @author: Karen Witt | Ana María Gómez Quitral
+ * Matrikelnummer: 20761
  * Letzte Änderung: 12.11.2023
  */
 

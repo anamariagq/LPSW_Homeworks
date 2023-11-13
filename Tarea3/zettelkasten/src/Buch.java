@@ -1,12 +1,10 @@
 /**
  * Erstellt ein Medium vom Typ Buch
  * Bildet String mit allen Attributen
- * <p>
  *
- * @author: Karen Witt | 19462
- * Umgebung: JDK2021.1.3
- * Erstellt: 22.09.2021
- * Letzte Änderung: 30.9.2021
+ * @author: Karen Witt | Ana María Gómez Quitral
+ * Matrikelnummer: 20761
+ * Letzte Änderung: 12.11.2023
  */
 
 public class Buch extends Medium

@@ -2,7 +2,8 @@
  * Enum für Medientypen
  * Buch, Cd, Elektronischesmedium, Zeitschrift
  *
- * @author: Karen Witt | Erweitet von Ana María Gómez Quitral
+ * @author: Karen Witt | Ana María Gómez Quitral
+ * Matrikelnummer: 20761
  * Letzte Änderung: 12.11.2023
  */
 

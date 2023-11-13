@@ -1,3 +1,10 @@
+/**
+ * @autor: Ana María Gómez Q
+ * Matrikelnummer: 20761
+ * Letzte Änderung: 12.11.2023
+ */
+
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.zip.InflaterInputStream;

@@ -1,8 +1,9 @@
 /**
  * Erstellt ein Medium vom Typ Zeitschrift
  * Bildet String mit allen Attributen einer Zeitschrift
- * <p>
- * @author: Karen Witt | Erweitet von Ana María Gómez Quitral
+ *
+ * @author: Karen Witt | Ana María Gómez Quitral
+ * Matrikelnummer: 20761
  * Letzte Änderung: 12.11.2023
  */
 

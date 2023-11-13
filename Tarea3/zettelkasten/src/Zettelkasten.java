@@ -6,7 +6,8 @@
  * findMedium
  * sort
  *
- * @author: Karen Witt | Erweitet von Ana María Gómez Quitral
+ * @author: Karen Witt | Ana María Gómez Quitral
+ * Matrikelnummer: 20761
  * Letzte Änderung: 12.11.2023
  */
 import java.io.Serializable;
@@ -76,29 +77,6 @@ public class Zettelkasten implements Iterable<Medium>, Serializable {
         return returnBoolean;
     }
 
-    /*public boolean dropMedium(String _title) {
-        boolean returnBoolean = false;
-
-        ArrayList<Medium> deleteMedia = findMedium(_title);
-
-        try {
-            if (!(_title.isEmpty())) {
-                if (deleteMedia.size() > 1) {
-                    throw new DuplicateEntryException();
-                } else if (deleteMedia.size() == 1) {
-                    media.removeAll(deleteMedia);
-                    returnBoolean = true;
-                } else {
-                    System.out.println("The title " + _title + " could not be found. No statements were deleted.");
-                }
-            } else {
-                throw new IllegalArgumentException("Please enter another title");
-            }
-        } catch (NullPointerException | DuplicateEntryException e) {
-            System.err.println(e);
-        }
-        return returnBoolean;
-    }*/
 
     public boolean dropMedium(String _title, MTyp typ, boolean deleteAll){
 
@@ -157,7 +135,7 @@ public class Zettelkasten implements Iterable<Medium>, Serializable {
     }
 
 
-
+//Aufgabe5, zum Sortieren
     public boolean sort(String dir) {
         boolean returnBoolean = false;
 
@@ -202,6 +180,29 @@ public class Zettelkasten implements Iterable<Medium>, Serializable {
             } else {
                 System.out.println("The parameter is not valid");
             }
+        }
+        return returnBoolean;
+    }*/
+/*public boolean dropMedium(String _title) {
+        boolean returnBoolean = false;
+
+        ArrayList<Medium> deleteMedia = findMedium(_title);
+
+        try {
+            if (!(_title.isEmpty())) {
+                if (deleteMedia.size() > 1) {
+                    throw new DuplicateEntryException();
+                } else if (deleteMedia.size() == 1) {
+                    media.removeAll(deleteMedia);
+                    returnBoolean = true;
+                } else {
+                    System.out.println("The title " + _title + " could not be found. No statements were deleted.");
+                }
+            } else {
+                throw new IllegalArgumentException("Please enter another title");
+            }
+        } catch (NullPointerException | DuplicateEntryException e) {
+            System.err.println(e);
         }
         return returnBoolean;
     }*/
